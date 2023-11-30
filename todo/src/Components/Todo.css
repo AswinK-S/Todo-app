@@ -1,15 +1,18 @@
+body{
+    background: linear-gradient(to right, #88bbd1, #8955f8); /* Adjust the color values as needed */
+
+}
 .container{
     width: 40%;
     margin-top: 50px;
-    background-color: green;
-    border: none;
+    background: linear-gradient(to right, #5fce53, #c96642);    border: 2px solid rgb(114, 107, 107);
     padding: 30px;
     border-radius: 10px;
 }
 
 h2{
     text-align:center;
-    color:aliceblue
+    color:rgb(13, 13, 14)
 }
 
 .form-group{
@@ -22,7 +25,7 @@ h2{
 button{
     margin-left: 10px;
     background-color: transparent;
-    color: whitesmoke;
+    color: rgb(12, 12, 12);
     border-radius: 5px;
     padding: 10px;
     width: 20%;
@@ -37,7 +40,7 @@ button{
 li{
     margin-bottom: 15px;
     margin-left: -12px;
-    background-color: black !important;
+    background: linear-gradient(to right, #5d715b, #8eb87c);    border: none;
     color: white !important;
     border: none !important;
     list-style-type: none;
@@ -66,10 +69,10 @@ li{
     color: aqua;
 }
 #delete{
-    color: red;
+    color: rgb(216, 18, 18);
 }
 #edit{
-    color: orange;
+    color: white;
 }
 
 #list-item{

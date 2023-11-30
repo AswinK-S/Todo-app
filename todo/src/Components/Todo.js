@@ -70,7 +70,7 @@ function Todo() {
 
     return (
         <div className='container'>
-            <h2>Todo</h2>
+            <h2>Todo List</h2>
             {errorMessage && <div className="error-message">{errorMessage}</div>}
 
             <form className='form-group' onSubmit={handleSubmit}>
